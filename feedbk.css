@@ -1,0 +1,47 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+.nav-bar{
+    width: 100%;
+
+}
+.logo a {
+    float: left;
+    padding: 5px 10px;
+    color: #63c067;
+    text-decoration: none;
+	text-transform: uppercase;s
+    font-size: 20px;
+	font-weight: bold;
+}
+.navbar-links {
+    float: right;
+    
+}
+
+/* Navigation links */
+.navbar-links a {
+    display: inline-block;
+	list-style:none;
+    color: rgb(12, 95, 19);
+    padding: 10px 15px;
+	font-size: 17px;
+    text-decoration: none;
+	font-weight:bold;
+}
+
+/* Change color on hover */
+.navbar-links a:hover {
+    
+    color:rgb(59, 42, 19);
+}
+
+
+
+
+
+
+  

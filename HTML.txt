@@ -1,0 +1,96 @@
+       
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> urban foods</title>
+    <link rel="stylesheet" type="Text/css" href="first.css">
+    
+   
+ </head>
+ <body>
+   <div class="navbar">
+      <div class="logo">
+          <a href="#">Urban Foods</a>
+      </div>
+      <div class="navbar-links">
+         
+         <a href="first.css">Home</a>
+          <a href="#">Vegetables</a>
+          <a href="#">Fruits</a>
+          <a href="#">Dairy Products</a>
+          <a href="#">Baked Goods</a>
+          <a href="#">Handmade Crafts</a>
+          <a href="#">Contact us</a>
+
+      </div>
+     </div>
+     <div class="image">
+      <img src="image02.jpg" alt="">
+      <div class="image-content">
+         <h1 data-text="URBAN FOODS">URBAN FOODS</h1> 
+         <p>FRESH, FARM -TO -TABLE</p> 
+      </div>
+       </div>
+       <div class="about">
+         <h2>ABOUT URBAN FOODS</h2>
+         <P>UrbanFood is an innovative online marketplace that connects urban farmers, local producers, and artisans with consumers seeking fresh, high-quality, and locally sourced products. Our platform offers a diverse range of goods, including fresh fruits, vegetables, dairy products, baked items, and handmade crafts.
+         <br>
+            At UrbanFood, we aim to support small-scale farmers and local businesses by providing them with a digital space to showcase and sell their products directly to customers. By bridging the gap between producers and consumers, we promote sustainable agriculture, reduce food miles, and encourage a healthier lifestyle.
+         </P>
+       </div>
+       
+       <div class="product">
+         <h2>OUR PRODUCTS</h2>
+       </div>
+       <div class="services">
+         <a target="-blank" href="image05.jpg">
+            <img src="vege.jpg" alt="vegetables" >
+         </a>
+         <div class="description">FRESH VEGETABLES</div>
+       </div>
+       <div class="services">
+         <a target="-blank" href="image05.jpg">
+            <img src="fruits (1).jpg" alt="FRUITS" >
+         </a>
+         <div class="description">FRESH FRUITS</div>
+       </div>
+       <div class="services">
+         <a target="-blank" href="image05.jpg">
+            <img src="dairy.jpg" alt="DAIRY GOODS" >
+         </a>
+         <div class="description">DAIRY PRODUCTS</div>
+       </div>
+
+       
+       <div class="services">
+         <a target="-blank" href="image05.jpg">
+            <img src="bakery.jpg" alt="BAKED ITEMS">
+         </a>
+         <div class="description">DAKED ITEMS</div>
+       </div>
+       <div class="services">
+         <a target="-blank" href="image05.jpg">
+            <img src="handmade.jpg" alt="handmade" >
+         </a>
+         <div class="description">HANDMADE CRAFTS</div>
+       </div>
+       </div>
+      
+      <div class="footer">
+         <img src="logo.jpg" style="width: 300px;height:300px ;float: right;padding: 25px;px ; ">
+         <h3 style="font-size: 50px;color: rgb(180, 180, 180);text-align: left;margin-top: 40px;padding-top: 20px;padding-left: 30px;">CONTACT US</h3>
+         
+         <h2 style ="font-size: 30px;color: rgb(255, 255, 255);text-align: left;margin-left: 50px;">Mobile Number -    03754676375</h2>
+         <h2 style ="font-size: 30px;color:rgb(255, 255, 255);text-align: left;margin-left: 50px;">Gmail -             urbanfoods@gmail.com</h2>
+         <h2 style ="font-size: 30px;color:rgb(255, 255, 255);text-align: left;margin-left: 50px;">Address -          NO:42 , Main street, Colombo</h2>
+         </div>
+      
+     
+
+
+    
+ </body>
+ </html>
