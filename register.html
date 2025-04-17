@@ -1,0 +1,173 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to bottom right, #4e54c8, #8f94fb);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #ffffff;
+            overflow: hidden;
+        }
+
+        .register {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 350px;
+            animation: slideIn 1s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .register h1 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .register input[type="text"],
+        .register input[type="password"],
+        .register input[type="email"] {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 25px;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            background: rgba(255, 255, 255, 0.2);
+            color: #ffffff;
+            outline: none;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        .register input:focus {
+            background: rgba(255, 255, 255, 0.4);
+            transform: scale(1.05);
+        }
+
+        .register label {
+            display: block;
+            text-align: left;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: #cfe997;
+            opacity: 0.9;
+        }
+        .register select{
+            display: block;
+            text-align: left;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: #ffffff;
+            opacity: 0.9;
+            background: rgba(255, 255, 255, 0.4);
+            transform: scale(1.05);
+        }
+
+        .register button {
+            width: 100%;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 25px;
+            background: linear-gradient(to right, #f7971e, #ffd200);
+            color: #000;
+            font-weight: bold;
+            font-size: 16px;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .register button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .register .reg button {
+            background: none;
+            border: 2px solid #ffd200;
+            color: #ffd200;
+            transition: color 0.3s, background 0.3s, box-shadow 0.3s;
+        }
+
+        .register .reg button:hover {
+            color: #000;
+            background: #ffd200;
+        }
+
+        .reg {
+            margin-top: 15px;
+        }
+
+        form {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="register">
+        <h1>Sign Up</h1>
+        <form method="POST" action="register.php">
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" required>
+
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="position">Choose a Position:</label>
+            <select id="position" name="position">
+            <option value="vendor">Vendor</option>
+            <option value="buyer">Buyer</option>
+  
+  
+</select>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password" required>
+
+            <button type="submit">Register</button>
+        </form>
+        <div class="reg">
+            <form action="login.html">
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
